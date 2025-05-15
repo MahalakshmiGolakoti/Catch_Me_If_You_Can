@@ -1,9 +1,9 @@
-Abstract:
+# Abstract:
  Always while using public transport people face the issue with danger of pick pocketing and there is no direct way to identify pick pocketing person. So using Automated Fare Collection and Transit Record dataset which consists passenger travelling routes and by analysing person travelling behaviour that identify whether the person is normal passenger or a pick pocketing suspect. 
  To detect person abnormal behaviour, patterns employing Two-Step SVM which analysing person behaviour by using travelling frequency and Short Rides. If person has too many travelling frequency with short rides then that person will be pick pocketing suspect. So first , applying Two-Step algorithm to identify person behaviour and then employing SVM algorithm on person behaviour to calculate suspect prediction Precision and  FSCORE. 
 
 
-User Manual:
+# User Manual:
  
  1. Introduction
 This user manual provides step-by-step instructions on how to install, configure, and use the "Catch Me If You Can" system for detecting pickpocket suspects in public transportation networks using large-scale transit records.
@@ -82,6 +82,37 @@ ii.	Missing Dependencies
 iii.	Application Not Launching
 •	Ensure all dependencies are installed correctly.
 •	Run the application with run.bat instead of directly executing Python scripts.
+
+# Application Interface
+![image](https://github.com/user-attachments/assets/46a92a5a-d875-485d-b9d1-e4219afeb60a)
+
+# Upoading Dataset
+![image](https://github.com/user-attachments/assets/06a5f2a1-fd2e-44b9-8b69-7a42acc097bc)
+
+# Loading Dataset
+![image](https://github.com/user-attachments/assets/8bc11b01-568b-4277-b50c-c52375097b7b)
+
+# Preprocessing Dataset
+![image](https://github.com/user-attachments/assets/14e86029-309b-4adb-963c-101637619dd6)
+
+# Run One Class SVM
+![image](https://github.com/user-attachments/assets/0c8163b4-bdf0-480b-bb2f-a61593656e2b)
+
+# Run Propose Two-Step SVM (TS-SVM)
+![image](https://github.com/user-attachments/assets/f919512b-e924-40ec-a801-b4e65e23269d)
+
+# Pickpocketing suspect travel route 
+![image](https://github.com/user-attachments/assets/c833a682-a49e-4332-9545-c274630b4d5c)
+
+# Accuracy Comparison Graph 
+![image](https://github.com/user-attachments/assets/06189af9-7b05-4050-b52d-0af416e67707)
+
+
+
+
+
+
+
 
 
 
